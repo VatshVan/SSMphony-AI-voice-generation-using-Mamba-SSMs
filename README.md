@@ -11,9 +11,12 @@ Useful Blogs
 - [State Space Duality (Mamba-2) Part III - The Algorithm | Goomba Lab](https://goombalab.github.io/blog/2024/mamba2-part3-algorithm/)
 
 Paper Explainer Videos
-- [Intuition behind Mamba and State Space Models | Enhancing LLMs!](https://youtu.be/BDTVVlUU1Ck?si=Hrumdz6pbEs80fPj) (Video that ties in with the first blog)
-- [Mamba and S4 explained: architecture, parallel scan, kernel fusion, recurrent, convolution, math](https://youtu.be/8Q_tqwpTpVU?si=Xmnb_5G6UWXFHmMI) (By Umar Jamil)
-- [MedAI #41: Efficiently Modeling Long Sequences with Structured State Spaces | Albert Gu](https://www.youtube.com/watch?v=luCBXCErkCs&list=PLcyHLdeyXTP0k1XjNlWCMil6BfaRz0LA3&index=2) (By the author himself)
+- [Intuition behind Mamba and State Space Models | Enhancing LLMs!](https://youtu.be/BDTVVlUU1Ck?si=Hrumdz6pbEs80fPj)  
+(Video that ties in with the first blog)
+- [Mamba and S4 explained: architecture, parallel scan, kernel fusion, recurrent, convolution, math](https://youtu.be/8Q_tqwpTpVU?si=Xmnb_5G6UWXFHmMI) 
+(By Umar Jamil)
+- [MedAI #41: Efficiently Modeling Long Sequences with Structured State Spaces | Albert Gu](https://www.youtube.com/watch?v=luCBXCErkCs&list=PLcyHLdeyXTP0k1XjNlWCMil6BfaRz0LA3&index=2) 
+(By the author himself)
 
 General Short Videos
 - [Mamba might just make LLMs 1000x cheaper...](https://www.youtube.com/watch?v=SbmETE7Ey20)
