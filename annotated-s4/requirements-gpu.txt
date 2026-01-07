@@ -1,25 +1,40 @@
-jax==0.3.21
-jaxlib==0.3.20+cuda11.cudnn82 # If this fails, follow the official instructions: pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-flax==0.5.0
-torch==1.10.1
-torchtext==0.11.1
-torchaudio==0.10.1
-torchvision==0.11.2
-jupytext==1.13.4
-matplotlib==3.5.1
-black
-flake8
-google-cloud-storage
-ipython
-isort
-pre-commit
-torchfsdd
+--find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+
+# Core Deep Learning (PyTorch Ecosystem)
+torch>=2.5.1
+torchvision>=0.20.1
+torchaudio>=2.5.1
+# torchfsdd removed: Use torch.distributed.fsdp instead
+# torchtext removed: Library is deprecated/unmaintained
+
+# JAX Ecosystem
+# Note: On native Windows, this defaults to CPU. Use WSL2 for GPU support.
+jax>=0.4.30
+flax>=0.10.0
+
+# TensorFlow
+# Note: Defaults to CPU-only on native Windows (post TF 2.10)
 tensorflow
-tqdm
-seaborn
-celluloid
-wandb
+
+# Data & IO
 datasets
-tqdm
+google-cloud-storage
+
+# Visualization & Logging
+matplotlib>=3.10.0
+seaborn
+wandb
+celluloid
+
+# Configuration & Utils
 hydra-core
 omegaconf
+tqdm
+
+# Dev Tools & Formatting
+jupytext>=1.16.0
+ipython
+black
+flake8
+isort
+pre-commit

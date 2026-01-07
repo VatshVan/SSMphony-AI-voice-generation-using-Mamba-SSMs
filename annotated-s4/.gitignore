@@ -153,3 +153,4 @@ docker-setup.sh
 # S4 temp files
 images/
 docs/
+data/
